@@ -1,16 +1,23 @@
 [theme]
-# Primary accent color for interactive elements.
-primaryColor = "#74BEE0"
+# Color primario institucional (puedes usar el azul del gobierno mexicano)
+primaryColor = "#005DAA"  # Azul oficial más oscuro para mejor contraste
 
-# Background color for the main content area.
-backgroundColor = "#0B0B0C"
+# Color de fondo principal (evita negro puro)
+backgroundColor = "#F8F9FA"  # Gris muy claro casi blanco
 
-# Background color used for the sidebar and most interactive widgets.
-secondaryBackgroundColor = "37207D"
+# Color secundario (púrpura institucional modificado)
+secondaryBackgroundColor = "#4B2E83"  # Púrpura más profesional
 
-# Color used for almost all text.
-textColor = "#FFF"
+# Color de texto principal (oscuro para mejor legibilidad)
+textColor = "#212529"  # Casi negro para máximo contraste
 
-# Font family for all text in the app, except code blocks. One of "sans serif", "serif", or "monospace".
-# Default: "sans serif"
+# Color para texto en widgets/interactivos
+widgetTextColor = "#FFFFFF"  # Blanco para texto sobre botones
+
+# Fuente profesional
 font = "sans serif"
+
+[server]
+# Configuración adicional para mejorar rendimiento
+maxUploadSize = 200
+maxMessageSize = 200
